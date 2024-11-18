@@ -2,6 +2,11 @@
 
 All notable changes to this package will be documented in this file.
 
+## [2.1.1] - 2024-11-18
+
+- Fix data type convert error
+- Add notification parsing
+
 ## [2.1.0] - 2024-10-21
 
 - Modify data structure and fix some bugs

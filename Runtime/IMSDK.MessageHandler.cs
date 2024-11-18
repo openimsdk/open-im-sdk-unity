@@ -422,11 +422,15 @@ namespace OpenIM.IMSDK.Unity
                 }
                 else if (type == DataTypeDef.DataType_Int)
                 {
-                    return 0;
+                    return Utils.FromJson<int>(msg);
                 }
                 else if (type == DataTypeDef.DataType_Bool)
                 {
-                    return false;
+                    return Utils.FromJson<bool>(msg);
+                }
+                else
+                {
+                    return null;
                 }
             }
             else
